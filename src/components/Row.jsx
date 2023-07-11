@@ -1,6 +1,9 @@
+// Row.jsx
+
 import React from "react"
 import Cell from "./Cell"
 
+// Creates table row from JSON object
 function Row (props) {
     return (
         <tr>

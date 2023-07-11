@@ -1,6 +1,8 @@
+// App.jsx
+
 import React, { useState, useEffect }from "react"
 import Table from "./Table";
-import Header from "./Header"
+import Nav from "./Nav"
 
 function App() {
     
@@ -22,8 +24,8 @@ function App() {
     },[])
 
     return (
-            <div>
-                <Header devices={devices} />
+            <div id="app">
+                <Nav />
                 <Table devices={devices} />
             </div>
         )

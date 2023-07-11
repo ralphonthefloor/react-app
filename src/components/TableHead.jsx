@@ -1,14 +1,16 @@
+// TableHead.jsx
+
 import React from "react"
 
+// Creates table head from keys of first JSON object in array
 function TableHead (props) {
     
-    console.dir(props);
+    const keys = Object.keys(props.data[0]); // Uses first object to define the columns
 
     return (        
             <thead>
                 <tr>
-                        {/* Uses first object to define the columns */}
-                        {Object.keys(props.data[0]).map((key) => {
+                        {keys.map((key) => {
                             return (
                                 <th className="col" id={key}>{key}</th>
                                 )

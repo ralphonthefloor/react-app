@@ -1,3 +1,5 @@
+// Table.jsx
+
 import React from "react"
 import TableHead from "./TableHead"
 import TableBody from "./TableBody"
@@ -15,7 +17,7 @@ function Table(props) {
     // debugger;
 
     return (
-        <table className="table table-light table-hover table-striped">
+        <table id="deviceTable" className="table table-light table-hover table-striped">
             <TableHead data={props.devices}/>
             <TableBody data={props.devices}/>
         </table>

@@ -1,8 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import App from '../components/App';
-import { createRoot } from 'react-dom/client';
-
 
 it('renders without crashing', () => {
-  const root = createRoot(document.getElementById('root')).render(<App />);
+  const root = document.createElement('root');
+  ReactDOM.render(<App />, root);
 });

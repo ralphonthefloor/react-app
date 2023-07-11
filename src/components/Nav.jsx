@@ -1,6 +1,8 @@
+// Nav.jsx
+
 import React from "react";
 
-function Header() {
+function Nav() {
     return (
         <nav className="padding navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="/"><div id="header">ABN Events</div></a>
@@ -28,4 +30,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Nav;

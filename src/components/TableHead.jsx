@@ -1,6 +1,9 @@
 import React from "react"
 
 function TableHead (props) {
+    
+    console.dir(props);
+
     return (        
             <thead>
                 <tr>

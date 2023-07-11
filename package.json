@@ -35,5 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "nodeVersion": "16.15.1"
+  "nodeVersion": "16.15.1",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
 }
